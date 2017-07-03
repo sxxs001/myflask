@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group</title>
+</head>
+<body>
+    <p>
+    {% for group in groups %}
+        <b>Groupname:<b/>{{ group }} <b>hosts:</b>{{ groups[group] }}<br />
+    {% endfor %}
+    <p/>
+</body>
+</html>
